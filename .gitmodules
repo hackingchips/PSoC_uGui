@@ -1,0 +1,3 @@
+[submodule "PSoC_uGui_Library"]
+	path = PSoC_uGui_Library
+	url = https://github.com/hackingchips/UGUI.git
