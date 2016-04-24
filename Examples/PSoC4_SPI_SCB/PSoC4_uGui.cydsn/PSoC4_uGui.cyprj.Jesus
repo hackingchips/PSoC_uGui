@@ -47,8 +47,8 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 <dep name=".\Generated_Source\PSoC4\project.h" />
 <dep name=".\main.c" />
+<dep name="..\..\..\PSoC_uGui_Drivers\ugui_st7735.h" />
 <dep name="..\..\..\PSoC_uGui_Library\ugui.h" />
-<dep name="..\..\..\PSoC_uGui_Library\ugui_st7735.h" />
 </file>
 <file name=".\PSoC_uGui_Library\ugui.h" />
 <file name=".\PSoC_uGui_Library\ugui_config.h" />
@@ -85,46 +85,8 @@
 <file name=".\Generated_Source\PSoC4\cytypes.h" />
 <file name=".\Generated_Source\PSoC4\project.h" />
 <file name=".\main.c" />
+<file name="..\..\..\PSoC_uGui_Drivers\ugui_st7735.h" />
 <file name="..\..\..\PSoC_uGui_Library\ugui.h" />
-<file name="..\..\..\PSoC_uGui_Library\ugui_st7735.h" />
-<file name=".\CortexM0\ARM_GCC_493\Debug\ugui.o">
-<dep name=".\PSoC_uGui_Library\ugui.h" />
-<dep name=".\PSoC_uGui_Library\ugui_config.h" />
-<dep name=".\Generated_Source\PSoC4\CyFlash.h" />
-<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
-<dep name=".\Generated_Source\PSoC4\CyLib.h" />
-<dep name=".\Generated_Source\PSoC4\DISP_CD.h" />
-<dep name=".\Generated_Source\PSoC4\DISP_CD_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\DISP_RESET.h" />
-<dep name=".\Generated_Source\PSoC4\DISP_RESET_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\SPI.h" />
-<dep name=".\Generated_Source\PSoC4\SPI_BOOT.h" />
-<dep name=".\Generated_Source\PSoC4\SPI_PINS.h" />
-<dep name=".\Generated_Source\PSoC4\SPI_PVT.h" />
-<dep name=".\Generated_Source\PSoC4\SPI_SCBCLK.h" />
-<dep name=".\Generated_Source\PSoC4\SPI_SPI_UART.h" />
-<dep name=".\Generated_Source\PSoC4\SPI_SPI_UART_PVT.h" />
-<dep name=".\Generated_Source\PSoC4\SPI_mosi_m.h" />
-<dep name=".\Generated_Source\PSoC4\SPI_mosi_m_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\SPI_sclk_m.h" />
-<dep name=".\Generated_Source\PSoC4\SPI_sclk_m_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\SPI_ss0_m.h" />
-<dep name=".\Generated_Source\PSoC4\SPI_ss0_m_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\core_cm0.h" />
-<dep name=".\Generated_Source\PSoC4\core_cm0_psoc4.h" />
-<dep name=".\Generated_Source\PSoC4\core_cmFunc.h" />
-<dep name=".\Generated_Source\PSoC4\core_cmInstr.h" />
-<dep name=".\Generated_Source\PSoC4\cyPm.h" />
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cydisabledsheets.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter_cfg.h" />
-<dep name=".\Generated_Source\PSoC4\cypins.h" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-<dep name=".\Generated_Source\PSoC4\project.h" />
-<dep name="..\..\..\PSoC_uGui_Library\ugui.c" />
-</file>
-<file name="..\..\..\PSoC_uGui_Library\ugui.c" />
 <file name=".\CortexM0\ARM_GCC_493\Debug\ugui_st7735.o">
 <dep name=".\PSoC_uGui_Library\ugui.h" />
 <dep name=".\PSoC_uGui_Library\ugui_config.h" />
@@ -160,10 +122,48 @@
 <dep name=".\Generated_Source\PSoC4\cypins.h" />
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 <dep name=".\Generated_Source\PSoC4\project.h" />
-<dep name="..\..\..\PSoC_uGui_Library\ugui_st7735.c" />
-<dep name="..\..\..\PSoC_uGui_Library\ugui_st7735.h" />
+<dep name="..\..\..\PSoC_uGui_Drivers\ugui_st7735.c" />
+<dep name="..\..\..\PSoC_uGui_Drivers\ugui_st7735.h" />
 </file>
-<file name="..\..\..\PSoC_uGui_Library\ugui_st7735.c" />
+<file name="..\..\..\PSoC_uGui_Drivers\ugui_st7735.c" />
+<file name=".\CortexM0\ARM_GCC_493\Debug\ugui.o">
+<dep name=".\PSoC_uGui_Library\ugui_config.h" />
+<dep name=".\Generated_Source\PSoC4\CyFlash.h" />
+<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\DISP_CD.h" />
+<dep name=".\Generated_Source\PSoC4\DISP_CD_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\DISP_RESET.h" />
+<dep name=".\Generated_Source\PSoC4\DISP_RESET_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\SPI.h" />
+<dep name=".\Generated_Source\PSoC4\SPI_BOOT.h" />
+<dep name=".\Generated_Source\PSoC4\SPI_PINS.h" />
+<dep name=".\Generated_Source\PSoC4\SPI_PVT.h" />
+<dep name=".\Generated_Source\PSoC4\SPI_SCBCLK.h" />
+<dep name=".\Generated_Source\PSoC4\SPI_SPI_UART.h" />
+<dep name=".\Generated_Source\PSoC4\SPI_SPI_UART_PVT.h" />
+<dep name=".\Generated_Source\PSoC4\SPI_mosi_m.h" />
+<dep name=".\Generated_Source\PSoC4\SPI_mosi_m_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\SPI_sclk_m.h" />
+<dep name=".\Generated_Source\PSoC4\SPI_sclk_m_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\SPI_ss0_m.h" />
+<dep name=".\Generated_Source\PSoC4\SPI_ss0_m_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\core_cm0.h" />
+<dep name=".\Generated_Source\PSoC4\core_cm0_psoc4.h" />
+<dep name=".\Generated_Source\PSoC4\core_cmFunc.h" />
+<dep name=".\Generated_Source\PSoC4\core_cmInstr.h" />
+<dep name=".\Generated_Source\PSoC4\cyPm.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cydisabledsheets.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter_cfg.h" />
+<dep name=".\Generated_Source\PSoC4\cypins.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+<dep name=".\Generated_Source\PSoC4\project.h" />
+<dep name="..\..\..\PSoC_uGui_Library\ugui.c" />
+<dep name="..\..\..\PSoC_uGui_Library\ugui.h" />
+</file>
+<file name="..\..\..\PSoC_uGui_Library\ugui.c" />
 <file name=".\CortexM0\ARM_GCC_493\Debug\Cm0Start.o">
 <dep name=".\Generated_Source\PSoC4\Cm0Start.c" />
 <dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
@@ -488,6 +488,8 @@
 <file name=".\Generated_Source\PSoC4\CyBootAsmGnu.s" />
 <file name=".\Generated_Source\PSoC4\cydevicegnu_trm.inc" />
 <file name=".\Generated_Source\PSoC4\cyfittergnu.inc" />
+<file name="..\..\..\PSoC_uGui_Library\ugui_st7735.h" />
+<file name="..\..\..\PSoC_uGui_Library\ugui_st7735.c" />
 </CyGuid_1173175f-1b9b-4ad4-a065-754a48a27021>
 </dependency_info>
 <dependency_info name="c9323d49-d323-40b8-9b59-cc008d68a989@Release@CortexM0" xml_contents_version="2">
@@ -607,11 +609,7 @@
 <dep name="..\..\..\PSoC_uGui_Drivers\ugui_st7735.h" />
 </file>
 <file name="..\..\..\PSoC_uGui_Drivers\ugui_st7735.c" />
-<file name="..\..\..\PSoC_uGui_Library\ugui_st7735.h" />
-<file name="..\..\..\PSoC_uGui_Library\ugui_st7735.c" />
-<file name="..\..\..\PSoC_uGui_Library\ugui_config.h" />
 <file name=".\CortexM0\ARM_GCC_493\Release\ugui.o">
-<dep name=".\PSoC_uGui_Library\ugui.h" />
 <dep name=".\PSoC_uGui_Library\ugui_config.h" />
 <dep name=".\Generated_Source\PSoC4\CyFlash.h" />
 <dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
@@ -646,6 +644,7 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 <dep name=".\Generated_Source\PSoC4\project.h" />
 <dep name="..\..\..\PSoC_uGui_Library\ugui.c" />
+<dep name="..\..\..\PSoC_uGui_Library\ugui.h" />
 </file>
 <file name="..\..\..\PSoC_uGui_Library\ugui.c" />
 <file name=".\CortexM0\ARM_GCC_493\Release\Cm0Start.o">
@@ -964,6 +963,9 @@
 <dep name=".\Generated_Source\PSoC4\cyutils.c" />
 </file>
 <file name=".\Generated_Source\PSoC4\cyutils.c" />
+<file name="..\..\..\PSoC_uGui_Library\ugui_st7735.h" />
+<file name="..\..\..\PSoC_uGui_Library\ugui_st7735.c" />
+<file name="..\..\..\PSoC_uGui_Library\ugui_config.h" />
 <file name=".\CortexM0\ARM_GCC_493\Release\CyBootAsmGnu.o">
 <dep name=".\Generated_Source\PSoC4\CyBootAsmGnu.s" />
 <dep name=".\Generated_Source\PSoC4\cydevicegnu_trm.inc" />
@@ -1090,39 +1092,40 @@
 <name_val_pair name=".\Generated_Source\PSoC4\cyutils.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
 <name_val_pair name=".\Generated_Source\PSoC4\CyLFClk.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
 <name_val_pair name="C:\HackingChips\PSoC_uGui\Examples\PSoC4_SPI_SCB\PSoC4_uGui.cydsn\CortexM0\ARM_GCC_493\Debug\PSoC4_uGui.hex" v="-mcpu=cortex-m0 -mthumb -g -ffunction-sections -O0 -L Generated_Source\PSoC4 -Wl,-Map,${OutputDir}/${ProjectShortName}.map -T Generated_Source\PSoC4\cm0gcc.ld -specs=nano.specs -Wl,--gc-sections" />
+<name_val_pair name="..\..\..\PSoC_uGui_Drivers\ugui_st7735.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
 </name>
 <name v="c9323d49-d323-40b8-9b59-cc008d68a989@Release@CortexM0">
-<name_val_pair name=".\main.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
-<name_val_pair name="..\..\..\PSoC_uGui_Library\ugui.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
+<name_val_pair name=".\main.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name="..\..\..\PSoC_uGui_Library\ugui.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
 <name_val_pair name="..\..\..\PSoC_uGui_Library\ugui_st7735.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
-<name_val_pair name=".\Generated_Source\PSoC4\cyfitter_cfg.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
-<name_val_pair name=".\Generated_Source\PSoC4\cymetadata.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
-<name_val_pair name=".\Generated_Source\PSoC4\SPI.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
-<name_val_pair name=".\Generated_Source\PSoC4\SPI_SPI_UART.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
-<name_val_pair name=".\Generated_Source\PSoC4\SPI_PM.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
-<name_val_pair name=".\Generated_Source\PSoC4\SPI_SPI.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
-<name_val_pair name=".\Generated_Source\PSoC4\SPI_BOOT.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
-<name_val_pair name=".\Generated_Source\PSoC4\SPI_SPI_BOOT.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
-<name_val_pair name=".\Generated_Source\PSoC4\DISP_RESET.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
-<name_val_pair name=".\Generated_Source\PSoC4\DISP_RESET_PM.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
-<name_val_pair name=".\Generated_Source\PSoC4\DISP_CD.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
-<name_val_pair name=".\Generated_Source\PSoC4\DISP_CD_PM.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
-<name_val_pair name=".\Generated_Source\PSoC4\SPI_SCBCLK.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
-<name_val_pair name=".\Generated_Source\PSoC4\SPI_sclk_m.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
-<name_val_pair name=".\Generated_Source\PSoC4\SPI_sclk_m_PM.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
-<name_val_pair name=".\Generated_Source\PSoC4\SPI_mosi_m.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
-<name_val_pair name=".\Generated_Source\PSoC4\SPI_mosi_m_PM.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
-<name_val_pair name=".\Generated_Source\PSoC4\SPI_ss0_m.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
-<name_val_pair name=".\Generated_Source\PSoC4\SPI_ss0_m_PM.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
-<name_val_pair name=".\Generated_Source\PSoC4\Cm0Start.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC4\cyfitter_cfg.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC4\cymetadata.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC4\SPI.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC4\SPI_SPI_UART.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC4\SPI_PM.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC4\SPI_SPI.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC4\SPI_BOOT.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC4\SPI_SPI_BOOT.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC4\DISP_RESET.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC4\DISP_RESET_PM.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC4\DISP_CD.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC4\DISP_CD_PM.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC4\SPI_SCBCLK.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC4\SPI_sclk_m.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC4\SPI_sclk_m_PM.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC4\SPI_mosi_m.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC4\SPI_mosi_m_PM.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC4\SPI_ss0_m.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC4\SPI_ss0_m_PM.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC4\Cm0Start.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
 <name_val_pair name=".\Generated_Source\PSoC4\CyBootAsmGnu.s" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -alh=${OutputDir}/${CompileFile}.lst -g -W" />
-<name_val_pair name=".\Generated_Source\PSoC4\CyFlash.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
-<name_val_pair name=".\Generated_Source\PSoC4\CyLib.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
-<name_val_pair name=".\Generated_Source\PSoC4\cyPm.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
-<name_val_pair name=".\Generated_Source\PSoC4\cyutils.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
-<name_val_pair name=".\Generated_Source\PSoC4\CyLFClk.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
-<name_val_pair name="C:\HackingChips\PSoC_uGui\Examples\PSoC4_SPI_SCB\PSoC4_uGui.cydsn\CortexM0\ARM_GCC_493\Release\PSoC4_uGui.hex" v="-mcpu=cortex-m0 -mthumb -g -ffunction-sections -O0 -L Generated_Source\PSoC4 -Wl,-Map,${OutputDir}/${ProjectShortName}.map -T Generated_Source\PSoC4\cm0gcc.ld -specs=nano.specs -Wl,--gc-sections" />
-<name_val_pair name="..\..\..\PSoC_uGui_Drivers\ugui_st7735.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC4\CyFlash.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC4\CyLib.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC4\cyPm.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC4\cyutils.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC4\CyLFClk.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name="C:\HackingChips\PSoC_uGui\Examples\PSoC4_SPI_SCB\PSoC4_uGui.cydsn\CortexM0\ARM_GCC_493\Release\PSoC4_uGui.hex" v="-mcpu=cortex-m0 -mthumb -g -ffunction-sections -Og -L Generated_Source\PSoC4 -Wl,-Map,${OutputDir}/${ProjectShortName}.map -T Generated_Source\PSoC4\cm0gcc.ld -specs=nano.specs -Wl,--gc-sections" />
+<name_val_pair name="..\..\..\PSoC_uGui_Drivers\ugui_st7735.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D NDEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
 </name>
 </genericCmdLineData>
 <codeGenCmdLineTag v="-.appdatapath &quot;C:\Users\Jesus\AppData\Local\Cypress Semiconductor\PSoC Creator\3.3&quot; -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -p C:\HackingChips\PSoC_uGui\Examples\PSoC4_SPI_SCB\PSoC4_uGui.cydsn\PSoC4_uGui.cyprj -d CY8C4245AXI-483 -s C:\HackingChips\PSoC_uGui\Examples\PSoC4_SPI_SCB\PSoC4_uGui.cydsn\Generated_Source\PSoC4 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE" />
@@ -1650,14 +1653,14 @@
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif</v>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif</v>
 </warp_dep>
-<deps_time v="131059075303961504" />
+<deps_time v="131060074270186160" />
 <top_block v="TopDesign" />
 <last_generation v="0" />
 </CyGuid_925cc1e1-309e-4e08-b0a1-09a83c35b157>
 </dataGuid>
 <dataGuid v="769d31ea-68b1-4f0c-b90a-7c10a43ee563">
 <CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563 type_name="CyDesigner.Common.ProjMgmt.Model.CyLinkCustomData" version="1">
-<deps_time v="131059221160988582" />
+<deps_time v="131060082160608755" />
 </CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563>
 </dataGuid>
 <dataGuid v="504337dd-7d07-4bc7-9057-90e60cf6c469">

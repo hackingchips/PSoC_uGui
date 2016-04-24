@@ -62,7 +62,12 @@ void Display_Init()
                    0x30, 0x39, 0x3f, 0x00, 0x07, 0x03, 0x10, 0},
         {0x2A, 4, 0x00, 0x02, 0x00, 0x81, 0},
         {0x2B, 4, 0x00, 0x01, 0x00, 0xa0, 0},
+#if defined USE_COLOR_RGB565        
         {0x3A, 1, 0x05, 0},
+#endif
+#if defined USE_COLOR_RGB888        
+        {0x3A, 1, 0x06, 0},
+#endif
         {0x29, 0, 0}};
     
     /* *** Initialize hardware. **** */
@@ -156,7 +161,15 @@ void Display_PSet(UG_S16 x, UG_S16 y, UG_COLOR c)
 #endif    
 
 #if defined USE_COLOR_RGB888
+    
+    ddata[0] = (uint8)(c);
+    ddata[1] = (uint8)(c >> 8);
+    ddata[2] = (uint8)(c >> 16);
+    
+    Display_WriteData(ddata, 3); 
+    
 #endif    
+
 }
 
 UG_RESULT HW_FillFrame(UG_S16 x1, UG_S16 y1, UG_S16 x2, UG_S16 y2, UG_COLOR c)
@@ -193,6 +206,19 @@ UG_RESULT HW_FillFrame(UG_S16 x1, UG_S16 y1, UG_S16 x2, UG_S16 y2, UG_COLOR c)
 #endif    
 
 #if defined USE_COLOR_RGB888
+    
+    ddata[0] = (uint8)(c);
+    ddata[1] = (uint8)(c >> 8);
+    ddata[2] = (uint8)(c >> 16);
+    
+    for (loopx = x1; loopx < (x2 + 1); loopx++)
+    {
+        for (loopy = y1; loopy < (y2 + 1); loopy++)
+        {
+            Display_WriteData(ddata, 3); 
+        }
+    }
+    
 #endif    
     
     return UG_RESULT_OK;

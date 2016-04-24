@@ -21,7 +21,7 @@ int main()
     /* *** Initialize display and related hardware. * ***/
     Display_Init();
     
-    UG_FillScreen(C_WHITE);
+    UG_FillScreen(C_BLACK);
 
     UG_DrawFrame(0, 0, 127, 159, C_GREEN);
     UG_DrawFrame(1, 1, 126, 158, C_RED);

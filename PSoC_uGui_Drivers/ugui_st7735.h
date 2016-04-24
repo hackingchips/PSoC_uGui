@@ -47,6 +47,11 @@
 #define DISPLAY_WIDTH       128
 #define DISPLAY_HEIGHT      160
     
+    /**** 
+    Realize that ST7735 chip max bits per pixel is 6 (RGB666), so if you configure uGui
+    to use RGB888, two lower bits of every color will be discarded by the chip.
+    *****/
+    
 /* *** Configuration <END>. *** */
     
     /* Text substitution macros to avoid changing function names related to SPI API
@@ -72,14 +77,7 @@
 #endif    
 
 #if (CY_PSOC5LP) 
-    #define mmSPI_SpiUartClearTxBuffer                  CONCATENATE(SPI_NAME, _ClearTxBuffer)
-    #define mmSPI_SpiUartClearRxBuffer                  CONCATENATE(SPI_NAME, _ClearRxBuffer)    
-    #define mmSPI_SpiUartPutArray(a, b)                 CONCATENATE(SPI_NAME, _PutArray(a, b)) 
-    #define mmSPI_SpiUartWriteTxData(value)             CONCATENATE(SPI_NAME, _WriteTxData(value))
-    #define mmSPI_SpiUartReadRxData                     CONCATENATE(SPI_NAME, _ReadRxData)
-    #define mmSPI_GetMasterInterruptSource              CONCATENATE(SPI_NAME, _GetMasterInterruptSource)
-    #define mmSPI_ClearMasterInterruptSource(value)     CONCATENATE(SPI_NAME, _ClearMasterInterruptSource(value)) 
-    #define mmSPI_INTR_MASTER_SPI_DONE                  CONCATENATE(SPI_NAME, _INTR_MASTER_SPI_DONE)    
+    // TODO  
 #endif 
 
 #define mmDisplayReset_Write(value) CONCATENATE(DISPLAY_RESET, _Write(value))

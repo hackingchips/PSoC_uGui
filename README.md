@@ -15,7 +15,7 @@ You can find information about uGui in his webpage:
 	* PSoC4_SPI_SCB: demo/testing project for PSoc 4 microcontroller using a SCB SPI component.
 	* PSoC4_SPI_UDB: demo/testing project for PSoc 4 microcontroller using a UDB SPI component.
 
-Examples for PSoC 4 have been developed using a Cypress development kit CY8CKIT-042 PSoC 4 Pioneer Kit. If you want to try the examples directly connect the display to the board as follows:
+Examples for PSoC 4 has been developed using a Cypress development kit CY8CKIT-042 PSoC 4 Pioneer Kit. If you want to try the examples directly connect the display to the board as follows:
 
 | Display       | PSoC 4 board  | Signal
 | ------------- |:-------------:|:--------
@@ -32,7 +32,7 @@ Remember that this kind of displays works at 3.3V.
 If you are using a display like mine, probably it have an on board voltage regulator and a jumper you can use to configure the display to work at 5V or 3.3V
 Remember to configure your PSoC board accordingly to the voltage of your display and don´t forget, that if you use 5V, you will need some kind of level adapter at digital signals.
 
-https://cloud.githubusercontent.com/assets/15149053/14770137/40f12f88-0a6a-11e6-9399-d25bcceb3137.png
+![alt tag](https://cloud.githubusercontent.com/assets/15149053/14770137/40f12f88-0a6a-11e6-9399-d25bcceb3137.png)
 
 
 
