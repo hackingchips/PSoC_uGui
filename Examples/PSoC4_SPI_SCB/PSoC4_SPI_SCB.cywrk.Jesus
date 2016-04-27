@@ -115,6 +115,18 @@
 <v>PSoC4_SPI_SCB\PSoC4_uGui\Generated_Source\PSoC4\project.h</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
+<v>PSoC4_SPI_SCB</v>
+<v>PSoC4_SPI_SCB\PSoC4_uGui</v>
+<v>PSoC4_SPI_SCB\PSoC4_uGui\TopDesign</v>
+<v>PSoC4_SPI_SCB\PSoC4_uGui\PSoC4_uGui.cydwr</v>
+<v>PSoC4_SPI_SCB\PSoC4_uGui\Header Files</v>
+<v>PSoC4_SPI_SCB\PSoC4_uGui\Header Files\cyapicallbacks.h</v>
+<v>PSoC4_SPI_SCB\PSoC4_uGui\PSoC_uGui_Drivers</v>
+<v>PSoC4_SPI_SCB\PSoC4_uGui\PSoC_uGui_Drivers\ugui_st7735.c</v>
+<v>PSoC4_SPI_SCB\PSoC4_uGui\PSoC_uGui_Drivers\ugui_st7735.h</v>
+<v>PSoC4_SPI_SCB\PSoC4_uGui\PSoC_uGui_Library</v>
+<v>PSoC4_SPI_SCB\PSoC4_uGui\PSoC_uGui_Library\ugui.c</v>
+<v>PSoC4_SPI_SCB\PSoC4_uGui\PSoC_uGui_Library\ugui.h</v>
 <v>PSoC4_SPI_SCB\PSoC4_uGui\PSoC_uGui_Library\ugui_config.h</v>
 <v>PSoC4_SPI_SCB\PSoC4_uGui\Source Files</v>
 <v>PSoC4_SPI_SCB\PSoC4_uGui\Source Files\main.c</v>
@@ -145,6 +157,9 @@
 <v>PSoC4_SPI_SCB\PSoC4_uGui\Generated_Source\PSoC4\cy_lfclk\CyLFClk.c</v>
 <v>PSoC4_SPI_SCB\PSoC4_uGui\Generated_Source\PSoC4\cy_lfclk\CyLFClk.h</v>
 <v>PSoC4_SPI_SCB\PSoC4_uGui\Generated_Source\PSoC4\DISP_CD</v>
+<v>PSoC4_SPI_SCB\PSoC4_uGui\Generated_Source\PSoC4\DISP_CD\DISP_CD.c</v>
+<v>PSoC4_SPI_SCB\PSoC4_uGui\Generated_Source\PSoC4\DISP_CD\DISP_CD.h</v>
+<v>PSoC4_SPI_SCB\PSoC4_uGui\Generated_Source\PSoC4\DISP_CD\DISP_CD_aliases.h</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -201,40 +216,6 @@
 <v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Debug\PSoC4_uGui.elf</v>
 <v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Debug\PSoC4_uGui.hex</v>
 <v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Debug\PSoC4_uGui.map</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\Listing Files</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\Listing Files\Cm0Start.lst</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\Listing Files\CyBootAsmGnu.lst</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\Listing Files\cyfitter_cfg.lst</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\Listing Files\CyFlash.lst</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\Listing Files\CyLFClk.lst</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\Listing Files\CyLib.lst</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\Listing Files\cymetadata.lst</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\Listing Files\cyPm.lst</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\Listing Files\cyutils.lst</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\Listing Files\DISP_CD.lst</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\Listing Files\DISP_CD_PM.lst</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\Listing Files\DISP_RESET.lst</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\Listing Files\DISP_RESET_PM.lst</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\Listing Files\main.lst</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\Listing Files\SPI.lst</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\Listing Files\SPI_BOOT.lst</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\Listing Files\SPI_mosi_m.lst</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\Listing Files\SPI_mosi_m_PM.lst</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\Listing Files\SPI_PM.lst</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\Listing Files\SPI_SCBCLK.lst</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\Listing Files\SPI_sclk_m.lst</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\Listing Files\SPI_sclk_m_PM.lst</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\Listing Files\SPI_SPI.lst</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\Listing Files\SPI_SPI_BOOT.lst</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\Listing Files\SPI_SPI_UART.lst</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\Listing Files\SPI_ss0_m.lst</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\Listing Files\SPI_ss0_m_PM.lst</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\Listing Files\ugui.lst</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\Listing Files\ugui_st7735.lst</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\PSoC4_uGui.elf</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\PSoC4_uGui.hex</v>
-<v>PSoC4_SPI_SCB\PSoC4_uGui\CortexM0\ARM_GCC_493\Release\PSoC4_uGui.map</v>
 <v>PSoC4_SPI_SCB\PSoC4_uGui\PSoC4_uGui.gpdsc</v>
 <v>PSoC4_SPI_SCB\PSoC4_uGui\PSoC4_uGui.rpt</v>
 <v>PSoC4_SPI_SCB\PSoC4_uGui\PSoC4_uGui_timing.html</v>
@@ -242,6 +223,8 @@
 <VisibleNodeIds>
 <v>PSoC4_SPI_SCB</v>
 <v>PSoC4_SPI_SCB\PSoC4_uGui</v>
+<v>PSoC4_SPI_SCB\PSoC4_uGui\PSoC4_uGui.rpt</v>
+<v>PSoC4_SPI_SCB\PSoC4_uGui\PSoC4_uGui_timing.html</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>

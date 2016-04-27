@@ -35,10 +35,13 @@
 /* *** Configuration. *** */
 
     /* Select SPI mode used. SCB mode or UDB based. Uncomment used mode and comment the other. */
+    /* Only for PSoC 4. Not used in PSoC 5LP. */
 #define USING_SPI_SCB
 //#define USING_SPI_UDB
+    
     /* Put here the same name of the SPI bus module you have used in schematic. */
 #define SPI_NAME                SPI 
+    
     /* Set here the name you have given to display CD and RESET signals in your schematic. */
 #define DISPLAY_RESET           DISP_RESET
 #define DISPLAY_CD              DISP_CD
@@ -77,7 +80,11 @@
 #endif    
 
 #if (CY_PSOC5LP) 
-    // TODO  
+
+        #define mmSPI_SpiUartPutArray(a, b)                 CONCATENATE(SPI_NAME, _PutArray(a, b)) 
+        #define mmSPI_SpiUartWriteTxData(value)             CONCATENATE(SPI_NAME, _WriteTxData(value))
+        #define mmSPI_SpiUartGetTxBufferSize()              CONCATENATE(SPI_NAME, _GetTxBufferSize())
+    
 #endif 
 
 #define mmDisplayReset_Write(value) CONCATENATE(DISPLAY_RESET, _Write(value))

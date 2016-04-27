@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\Source Files\main.c">
+<ExpandedNodeIds>
+<v>PSoC5LP_SPI_SCB</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\TopDesign</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB.cydwr</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\Header Files</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\Header Files\cyapicallbacks.h</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\PSoC_uGui_Drivers</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\PSoC_uGui_Drivers\ugui_st7735.c</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\PSoC_uGui_Drivers\ugui_st7735.h</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\PSoC_uGui_Library</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\PSoC_uGui_Library\ugui.c</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\PSoC_uGui_Library\ugui.h</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\PSoC_uGui_Library\ugui_config.h</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\Source Files</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\Source Files\main.c</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>PSoC5LP_SPI_SCB</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\TopDesign</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB.cydwr</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\Header Files</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\Header Files\cyapicallbacks.h</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\PSoC_uGui_Drivers</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\PSoC_uGui_Drivers\ugui_st7735.c</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\PSoC_uGui_Drivers\ugui_st7735.h</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\PSoC_uGui_Library</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\PSoC_uGui_Library\ugui.c</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\PSoC_uGui_Library\ugui.h</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\PSoC_uGui_Library\ugui_config.h</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\Source Files</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\Source Files\main.c</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>PSoC5LP_SPI_SCB</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\TopDesign</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>PSoC5LP_SPI_SCB</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\TopDesign</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>PSoC5LP_SPI_SCB</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB.gpdsc</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB.rpt</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>PSoC5LP_SPI_SCB</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB.gpdsc</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB.rpt</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB_timing.html</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>PSoC5LP_SPI_SCB</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\PSoC 5 Architecture TRM</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\CY8C58LP Family Datasheet</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\System Reference Guides</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\System Reference Guides\cy_boot_v5_30</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\cy_clock_v2_20.pdf</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\cy_pins_v2_20</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\SPI_Master_v2_50.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>PSoC5LP_SPI_SCB</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\PSoC 5 Architecture TRM</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\CY8C58LP Family Datasheet</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\System Reference Guides</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\System Reference Guides\cy_boot_v5_30</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\cy_clock_v2_20.pdf</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\cy_pins_v2_20</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>PSoC5LP_SPI_SCB\PSoC5LP_SPI_SCB\SPI_Master_v2_50.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs />
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>
