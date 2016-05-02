@@ -98,8 +98,8 @@ void Display_Init();
 void Display_PSet(UG_S16 x, UG_S16 y, UG_COLOR c);
 
     // Accelerators.
-UG_RESULT HW_FillFrame (UG_S16 x1, UG_S16 y1, UG_S16 x2, UG_S16 y2, UG_COLOR c);
-UG_RESULT HW_FillArea(UG_S16 x1, UG_S16 y1, UG_S16 x2, UG_S16 y2, UG_COLOR c);
+UG_RESULT HW_FillFrame(UG_S16 x1, UG_S16 y1, UG_S16 x2, UG_S16 y2, UG_COLOR c);
+UG_RESULT HW_DrawLine(UG_S16 x1 , UG_S16 y1 , UG_S16 x2 , UG_S16 y2 , UG_COLOR c );
 
 #endif /* End PSOC_UGUI_ST7735_H */    
 

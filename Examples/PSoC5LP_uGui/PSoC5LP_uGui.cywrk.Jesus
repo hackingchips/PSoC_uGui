@@ -184,6 +184,37 @@
 <VisibleNodeIds>
 <v>PSoC5LP_uGui</v>
 <v>PSoC5LP_uGui\PSoC5LP_uGui</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\CortexM3</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\CortexM3\ARM_GCC_493</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\CortexM3\ARM_GCC_493\Debug</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\CortexM3\ARM_GCC_493\Debug\Listing Files</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\CortexM3\ARM_GCC_493\Debug\Listing Files\Clock_1.lst</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\CortexM3\ARM_GCC_493\Debug\Listing Files\Cm3Start.lst</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\CortexM3\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\CortexM3\ARM_GCC_493\Debug\Listing Files\CyDmac.lst</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\CortexM3\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\CortexM3\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\CortexM3\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\CortexM3\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\CortexM3\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\CortexM3\ARM_GCC_493\Debug\Listing Files\CySpc.lst</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\CortexM3\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\CortexM3\ARM_GCC_493\Debug\Listing Files\DISP_CD.lst</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\CortexM3\ARM_GCC_493\Debug\Listing Files\DISP_RESET.lst</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\CortexM3\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\CortexM3\ARM_GCC_493\Debug\Listing Files\MISO.lst</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\CortexM3\ARM_GCC_493\Debug\Listing Files\MOSI.lst</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\CortexM3\ARM_GCC_493\Debug\Listing Files\SCLK.lst</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\CortexM3\ARM_GCC_493\Debug\Listing Files\SPI.lst</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\CortexM3\ARM_GCC_493\Debug\Listing Files\SPI_INT.lst</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\CortexM3\ARM_GCC_493\Debug\Listing Files\SPI_PM.lst</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\CortexM3\ARM_GCC_493\Debug\Listing Files\SS.lst</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\CortexM3\ARM_GCC_493\Debug\Listing Files\ugui.lst</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\CortexM3\ARM_GCC_493\Debug\Listing Files\ugui_st7735.lst</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\CortexM3\ARM_GCC_493\Debug\PSoC5LP_uGui.elf</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\CortexM3\ARM_GCC_493\Debug\PSoC5LP_uGui.hex</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\CortexM3\ARM_GCC_493\Debug\PSoC5LP_uGui.map</v>
+<v>PSoC5LP_uGui\PSoC5LP_uGui\PSoC5LP_uGui.gpdsc</v>
 <v>PSoC5LP_uGui\PSoC5LP_uGui\PSoC5LP_uGui.rpt</v>
 <v>PSoC5LP_uGui\PSoC5LP_uGui\PSoC5LP_uGui_timing.html</v>
 </VisibleNodeIds>
@@ -239,7 +270,6 @@
 <name v="..\..\PSoC_uGui_Drivers\ugui_st7735.c" />
 <name v="..\..\PSoC_uGui_Library\ugui.c" />
 <name v=".\PSoC5LP_uGui.cydsn\PSoC5LP_uGui.cydwr" />
-<name v=".\PSoC5LP_uGui.cydsn\Generated_Source\PSoC5\CyBootAsmGnu.s" />
 </OpenDocs>
 <config v="" />
 <AutoUpdate v="true" />

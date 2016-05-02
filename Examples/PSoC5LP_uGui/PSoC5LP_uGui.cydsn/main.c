@@ -41,6 +41,9 @@ int main()
     UG_DrawCircle(26, 72, 10, C_RED);
     UG_DrawFrame(49, 62, 69, 82, C_BLUE);
     UG_DrawRoundFrame(82, 62, 102, 82, 5, C_BLUE);
+    
+    UG_DrawLine(50, 110, 78, 110, C_RED);
+    UG_DrawLine(50, 120, 50, 150, C_RED);
 
     for(;;)
     {

@@ -94,6 +94,7 @@ void Display_Init()
     
     // Register acceleratos.
     UG_DriverRegister(DRIVER_FILL_FRAME, (void*)HW_FillFrame);
+    UG_DriverRegister(DRIVER_DRAW_LINE, (void*)HW_DrawLine);
 }
 
 void Display_Reset()
@@ -224,7 +225,18 @@ UG_RESULT HW_FillFrame(UG_S16 x1, UG_S16 y1, UG_S16 x2, UG_S16 y2, UG_COLOR c)
     return UG_RESULT_OK;
 }
 
-
+UG_RESULT HW_DrawLine( UG_S16 x1 , UG_S16 y1 , UG_S16 x2 , UG_S16 y2 , UG_COLOR c )
+{
+    // If it is a vertical or a horizontal line, draw it.
+    // If not, then use original drawline routine.
+    if ((x1 == x2) || (y1 == y2)) 
+    {
+        HW_FillFrame(x1, y1, x2, y2, c);
+        return UG_RESULT_OK;
+    }
+    
+    return UG_RESULT_FAIL;
+}
 
 
 /* [] END OF FILE */
