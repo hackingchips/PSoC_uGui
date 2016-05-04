@@ -138,7 +138,7 @@ void Display_PSet(UG_S16 x, UG_S16 y, UG_COLOR c)
     UG_U16 color;
     uint8 ddata[4];
 
-    if((x < 0) ||(x >= 128) || (y < 0) || (y >= 160)) return;
+    if((x < 0) ||(x >= DISPLAY_WIDTH) || (y < 0) || (y >= DISPLAY_HEIGHT)) return;
 
     Display_WriteCommand(0x2A);
     ddata[0] = 0x00; ddata[1] = x; ddata[2] = 0x00; ddata[3] = x + 1;
@@ -178,6 +178,9 @@ UG_RESULT HW_FillFrame(UG_S16 x1, UG_S16 y1, UG_S16 x2, UG_S16 y2, UG_COLOR c)
     uint8 loopx, loopy;
     UG_U16 color;
     uint8 ddata[4];
+    
+    if((x1 < 0) ||(x1 >= DISPLAY_WIDTH) || (y1 < 0) || (y1 >= DISPLAY_HEIGHT)) return UG_RESULT_FAIL;
+    if((x2 < 0) ||(x2 >= DISPLAY_WIDTH) || (y2 < 0) || (y2 >= DISPLAY_HEIGHT)) return UG_RESULT_FAIL;
 
     Display_WriteCommand(0x2A);
     ddata[0] = 0x00; ddata[1] = x1; ddata[2] = 0x00; ddata[3] = x2;
@@ -227,6 +230,9 @@ UG_RESULT HW_FillFrame(UG_S16 x1, UG_S16 y1, UG_S16 x2, UG_S16 y2, UG_COLOR c)
 
 UG_RESULT HW_DrawLine( UG_S16 x1 , UG_S16 y1 , UG_S16 x2 , UG_S16 y2 , UG_COLOR c )
 {
+    if((x1 < 0) ||(x1 >= DISPLAY_WIDTH) || (y1 < 0) || (y1 >= DISPLAY_HEIGHT)) return UG_RESULT_FAIL;
+    if((x2 < 0) ||(x2 >= DISPLAY_WIDTH) || (y2 < 0) || (y2 >= DISPLAY_HEIGHT)) return UG_RESULT_FAIL;
+    
     // If it is a vertical or a horizontal line, draw it.
     // If not, then use original drawline routine.
     if ((x1 == x2) || (y1 == y2)) 

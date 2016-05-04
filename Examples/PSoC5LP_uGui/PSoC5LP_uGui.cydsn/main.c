@@ -16,13 +16,13 @@
 
 int main()
 {
-    //CyGlobalIntEnable; /* Enable global interrupts. */
-
-    /* *** Initialize display and related hardware. * ***/
+    /* Initialize display and related hardware. */
     Display_Init();
     
+    /* Clear screen. */
     UG_FillScreen(C_BLACK);
 
+    /* Some graphic primitives for testing. */    
     UG_DrawFrame(0, 0, 127, 159, C_GREEN);
     UG_DrawFrame(1, 1, 126, 158, C_RED);
     UG_DrawFrame(2, 2, 125, 157, C_BLUE);

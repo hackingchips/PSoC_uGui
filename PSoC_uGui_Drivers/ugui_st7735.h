@@ -47,8 +47,8 @@
 #define DISPLAY_CD              DISP_CD
     
     /* Set here your display resolution. */
-#define DISPLAY_WIDTH       128
-#define DISPLAY_HEIGHT      160
+#define DISPLAY_WIDTH           128
+#define DISPLAY_HEIGHT          160
     
     /**** 
     Realize that ST7735 chip max bits per pixel is 6 (RGB666), so if you configure uGui
