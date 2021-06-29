@@ -33,7 +33,7 @@ If you want to try the examples directly connect the display to the board as fol
 | BL            | 3.3V          | ext 3.3V	| Back Light
 
 Remember that this kind of displays works at 3.3V.
-If you are using a display like mine, probably it have an on board voltage regulator and a jumper you can use to configure the display to work at 5V or 3.3V
+If you are using a display like mine, probably it has an on board voltage regulator and a jumper you can use to configure the display to work at 5V or 3.3V
 Remember to configure your PSoC board accordingly to the voltage of your display and don´t forget, that if you use 5V, you will need some kind of level adapter at digital signals.
 
 ![alt tag](https://cloud.githubusercontent.com/assets/15149053/14770137/40f12f88-0a6a-11e6-9399-d25bcceb3137.png)
